@@ -1,0 +1,134 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: rgb(219, 206, 190);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* fondo */
+.fondo {
+  position: absolute;
+  width: 50vh;
+  top: 10%;
+  left: 43%;
+  bottom: 0;
+}
+/* header */
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  padding: 19px;
+  margin: 100px;
+  margin-top: -1px;
+  margin-bottom: 85px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn1 {
+  background-color: rgb(201, 176, 156);
+  width: 250px;
+  height: 70px;
+  border: none;
+  margin-left: 29%;
+  margin-top: -42%;
+  cursor: pointer;
+  font-size: large;
+}
+
+p {
+  background-color: rgb(201, 158, 126);
+  width: 40%;
+  padding: 1%;
+  padding-left: 18%;
+  margin-top: 10%;
+  font-size: medium;
+  align-items: center;
+  color: white;
+}
+.fond {
+  background-color: rgb(201, 176, 156);
+  font-size: 50px;
+  width: 52%;
+  color: rgb(201, 194, 188);
+  margin-left: 48%;
+  margin-top: -77px;
+  line-height: 1cm;
+}
+
+.persona {
+  margin-left: 70%;
+  margin-top: -4%;
+  position: absolute;
+  z-index: 0;
+  font-size: 25px;
+  font-weight: bold;
+}
+.btn2 {
+  color: white;
+  background-color: rgb(201, 158, 126);
+  width: 259px;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+  margin-left: 57%;
+  margin-top: 12vh;
+  font-size: large;
+}
+
+.num {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  font-size: 25px;
+  position: absolute;
+  z-index: 1;
+}
+.h2 {
+  display: flex;
+  font-size: small;
+  margin-top: 15%;
+  position: absolute;
+  z-index: 1;
+}
+.n1 {
+  margin-left: 140px;
+}
+.n2 {
+  margin-left: 430px;
+  color: rgb(86, 40, 5);
+}
+.n3 {
+  margin-left: 320px;
+}
+.h_8 {
+  margin-left: 140px;
+}
+.h_120 {
+  margin-left: 236px;
+  color: rgb(86, 40, 5);
+}
+.h_infinity {
+  margin-left: 200px;
+}
+
+.caretdown {
+  left: 33%;
+  top: 5px;
+  position: relative;
+  width: 30px;
+  height: 25px;
+}
+.caretright {
+  left: 75%;
+  top: 9px;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  color: white;
+  filter: invert(100%);
+}
